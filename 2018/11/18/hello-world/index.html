@@ -165,36 +165,12 @@
     <!-- NAV END -->
     <!-- 打赏 START -->
     
-      <div class="money-like">
-        <div class="reward-btn">
-          赏
-          <span class="money-code">
-            <span class="alipay-code">
-              <div class="code-image"></div>
-              <b>使用支付宝打赏</b>
-            </span>
-            <span class="wechat-code">
-              <div class="code-image"></div>
-              <b>使用微信打赏</b>
-            </span>
-          </span>
-        </div>
-        <p class="notice">若你觉得我的文章对你有帮助，欢迎点击上方按钮对我打赏</p>
-      </div>
-    
     <!-- 打赏 END -->
     <!-- 二维码 START -->
     
-      <div class="qrcode">
-        <canvas id="share-qrcode"></canvas>
-        <p class="notice">扫描二维码，分享此文章</p>
-      </div>
-    
     <!-- 二维码 END -->
     
-      <!-- Gitment START -->
-      <div id="comments"></div>
-      <!-- Gitment END -->
+      <!-- No Comment -->
     
   </article>
   <!-- Article END -->
@@ -214,7 +190,7 @@
 
 <script>
   (function () {
-    var url = 'http://yoursite.com/2018/11/18/hello-world/';
+    var url = 'http://jwluuu.coding.me/2018/11/18/hello-world/';
     var banner = ''
     if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
       $('#article-banner').css({
@@ -267,15 +243,15 @@
     });
 
     // gitment
-    var gitmentConfig = "BigChaChi";
+    var gitmentConfig = "";
     if (gitmentConfig !== 'undefined') {
       var gitment = new Gitment({
         id: "Hello World",
-        owner: "BigChaChi",
-        repo: "bigchachi.github.io",
+        owner: "",
+        repo: "",
         oauth: {
-          client_id: "e7f7cb0d278616fd4145",
-          client_secret: "d578d03def541bb5efc1f0d8d494b046a0a55575"
+          client_id: "",
+          client_secret: ""
         },
         theme: {
           render(state, instance) {
@@ -298,7 +274,7 @@
 <script>
   var disqus_shortname = '';
   
-  var disqus_url = 'http://yoursite.com/2018/11/18/hello-world/';
+  var disqus_url = 'http://jwluuu.coding.me/2018/11/18/hello-world/';
   
   (function(){
     var dsq = document.createElement('script');
